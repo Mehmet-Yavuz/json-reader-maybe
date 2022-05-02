@@ -1,0 +1,11 @@
+{
+  "name": "json-reader-maybe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "feature_toggle_manager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehmet Yavuz",
+  "license": "ISC"
+}
