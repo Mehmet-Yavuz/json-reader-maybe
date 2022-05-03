@@ -1,0 +1,106 @@
+{
+	"booleanFeatureSimple": true,
+	"booleanFeatureAdvanced": {
+		"ftrValue": true,
+		"ftrType": "boolean",
+		"ftrTitle": {
+			"eng": "Advanced boolean feature",
+			"nld": "Geavanceerde booleaanse functionaliteit"
+		},
+		"ftrDescription": {
+			"eng": "This is an advanced boolean feature.",
+			"nld": "Dit is een geavanceerde booleaanse functionaliteit."
+		},
+		"subBooleanFeatureSimple": true,
+		"subBooleanFeatureAdvanced": {
+			"ftrValue": true,
+			"ftrType": "boolean"
+		},
+		"subIntegerParameterSimple": 123,
+		"subIntegerParameterAdvanced": {
+			"ftrValue": 123,
+			"ftrType": "integer",
+			"ftrRange": [1, 300],
+			"ftrTitle": {
+				"eng": "Advanced integer subfeature",
+				"nld": "Geavanceerd geheel getal subfunctionaliteit"
+			},
+			"ftrDescription": {
+				"eng": "This is an advanced integer subfeature.",
+				"nld": "Dit is een geavanceerde geheel getal subfunctionaliteit."
+			},
+			"ftrOptInEnabled": true,
+			"ftrOptInValues": [
+				{
+					"value": "1",
+					"title": {
+						"eng": "Option 1",
+						"nld": "Optie 1"
+					},
+					"description": {
+						"eng": "This is the first option.",
+						"nld": "Dit is de eerste optie."
+					}
+				}, {
+					"value": "2",
+					"title": {
+						"eng": "Option 2",
+						"nld": "Optie 2"
+					},
+					"description": {
+						"eng": "This is the second option.",
+						"nld": "Dit is de tweede optie."
+					}
+				}
+			]
+		},
+		"subStringParameterSimple": "3.1.3",
+		"subStringParameterAdvanced": {
+			"ftrValue": "3.1.3",
+			"ftrType": "string",
+			"ftrValidationRegex": "^\\d{1,2}\\.\\d{1,2}\\.\\d{1,2}$",
+			"ftrTitle": {
+				"eng": "Advanced string feature",
+				"nld": "Geavanceerde textuele functionaliteit"
+			},
+			"ftrDescription": {
+				"eng": "This is an advanced string subfeature.",
+				"nld": "Dit is een geavanceerde textuele subfunctionaliteit."
+			},
+			"ftrOptInEnabled": false,
+			"ftrOptInValues": [
+				{
+					"value": "BLUE",
+					"title": {
+						"eng": "Blue",
+						"nld": "Blauw"
+					},
+					"description": {
+						"eng": "The color blue.",
+						"nld": "De kleur blauw."
+					}
+				}, {
+					"value": "RED",
+					"title": {
+						"eng": "Red",
+						"nld": "Rood"
+					},
+					"description": {
+						"eng": "The color red.",
+						"nld": "De kleur rood."
+					}
+				}
+			]
+		}
+	},
+	"integerFeatureSimple": 123,
+	"integerFeatureAdvanced": {
+		"ftrValue": 123,
+		"ftrType": "integer"
+	},
+	"stringFeatureSimple": "ValueA",
+	"stringFeatureAdvanced": {
+		"ftrValue": "ValueA",
+		"ftrType": "string"
+	}
+}
