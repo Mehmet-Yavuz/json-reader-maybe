@@ -2,7 +2,10 @@ const fs = require('fs');
 const appConfig = require('./appcfg_stb_features.json');
 let tab = 0;
 
-console.log(JSON.stringify(appConfig, null, 5));
+// console.log(JSON.stringify(appConfig, null, 5));
+console.log(JSON.stringify(appConfig, function (key, value) {
+      return value;
+  }, 5));
 
 // featureFileReader(appConfig);
 
